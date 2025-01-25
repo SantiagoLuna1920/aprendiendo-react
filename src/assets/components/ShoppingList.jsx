@@ -21,7 +21,7 @@ export function ShoppingList () {
     // por ejemplo, puedo guardar en un arreglo componentes, los elementos html como componentes, se me visualizan como objetos
     const items = [ <LoginForm />, <AdminPanel /> ];
     
-console.log(items);
+console.log(listItems);
 //los arrays de elementos html producidos por el map, los puedo renderizar poniendo el nombre de la variable
     return (
         // <ul>{ items }</ul>
